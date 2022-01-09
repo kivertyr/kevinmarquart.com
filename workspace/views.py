@@ -11,3 +11,15 @@ def home():
 @views.route("/hvaderkatte")
 def hvaderkatte():
     return render_template("hvaderkatte.html")
+
+@views.route("/kevinmarquart")
+def kevinmarquart():
+    return render_template("kevinmarquart.html")
+
+@views.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@views.route("/projects")
+def projects():
+    return render_template("projects.html")
